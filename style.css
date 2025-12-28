@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 1rem;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: orange;
+  cursor: pointer;
+}
+
+#location,
+#weather,
+#risk {
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+/* Risk Colors */
+.safe {
+  background-color: #a5d6a7;
+}
+
+.caution {
+  background-color: #ffd54f;
+}
+
+.danger {
+  background-color: #ef9a9a;
+}
+
+.cold {
+  background-color: #81d4fa;
+}
